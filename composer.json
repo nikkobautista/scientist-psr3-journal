@@ -1,6 +1,6 @@
 {
-    "name": "nx/scientist-monolog-journal",
-    "description": "Monolog Journal for Scientist",
+    "name": "nx/scientist-psr3-journal",
+    "description": "PSR3 Journal for Scientist",
     "keywords": ["scientist", "testing", "experiment", "test"],
     "type": "library",
     "require": {
