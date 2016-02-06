@@ -68,7 +68,7 @@ class PSR3Journal implements Journal
         $results['control'] = $report->getControl();
 
         /** @var Result $result */
-        foreach ($results as $result) {
+        foreach ($results as $key => $result) {
             $data_array = [
                 $this->config->getIsMatchKey() => $result->isMatch(),
                 $this->config->getStartTimeKey() => $result->getStartTime(),
@@ -83,7 +83,10 @@ class PSR3Journal implements Journal
                 $data_array[$this->config->getValueKey()] = $this->config->formatValue($result->getValue());
             }
 
-            $this->logger->{$this->config->getLevel()}($this->config->formatMessage($experiment, $report, $result), $data_array);
+            $this->logger->{$this->config->getLevel()}(
+                $this->config->formatMessage($experiment, $report, $result, $key),
+                $data_array
+            );
         }
     }
 

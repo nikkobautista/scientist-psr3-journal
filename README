@@ -1,0 +1,11 @@
+# PSR3 Compatible Journal for Scientist
+
+## Installation
+`composer require scientist-psr3-journal`
+
+## Usage
+```
+$config = new \NX\Scientist\Journal\StandardConfig(); //or anything that implements PSR3Config
+$logger = new \Monolog\Monolog(); // or anything that implements Psr\Log\LoggerInterface
+$psr3_journal = new Scientist\Journals\PSR3Journal($logger, $config);
+```
