@@ -5,7 +5,7 @@
 
 ## Usage
 ```
-$config = new \NX\Scientist\Journal\StandardConfig(); //or anything that implements PSR3Config
+$config = new \NX\Scientist\Journal\StandardConfig(); //or anything that implements \NX\Scientist\Journal\PSR3Config
 $logger = new \Monolog\Monolog(); // or anything that implements Psr\Log\LoggerInterface
-$psr3_journal = new Scientist\Journals\PSR3Journal($logger, $config);
+$psr3_journal = new \Scientist\Journals\PSR3Journal($logger, $config);
 ```
