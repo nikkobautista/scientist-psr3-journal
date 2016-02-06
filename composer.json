@@ -1,0 +1,26 @@
+{
+    "name": "nikkobautista/scientist-monolog-journal",
+    "description": "Monolog Journal for Scientist",
+    "keywords": ["scientist", "testing", "experiment", "test"],
+    "type": "library",
+    "require": {
+        "daylerees/scientist": "^0.1.1@alpha",
+        "psr/log": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikko Bautista",
+            "email": "nikko@nikkobautista.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Scientist\\": "src/Scientist",
+            "NX\\": "src/NX"
+        }
+    }
+}
