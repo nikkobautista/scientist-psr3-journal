@@ -1,7 +1,7 @@
 # PSR3 Compatible Journal for Scientist
 
 ## Installation
-`composer require scientist-psr3-journal`
+`composer require nx/scientist-monolog-journal`
 
 ## Usage
 ```

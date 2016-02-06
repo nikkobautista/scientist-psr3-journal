@@ -1,5 +1,5 @@
 {
-    "name": "nikkobautista/scientist-monolog-journal",
+    "name": "nx/scientist-monolog-journal",
     "description": "Monolog Journal for Scientist",
     "keywords": ["scientist", "testing", "experiment", "test"],
     "type": "library",
