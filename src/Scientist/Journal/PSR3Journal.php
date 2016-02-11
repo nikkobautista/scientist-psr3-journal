@@ -73,10 +73,10 @@ class PSR3Journal implements Journal
                 $this->config->getIsMatchKey() => $result->isMatch(),
                 $this->config->getStartTimeKey() => $result->getStartTime(),
                 $this->config->getEndTimeKey() => $result->getEndTime(),
-                $this->config->getTimeKey() => $result->getEndTime(),
+                $this->config->getTimeKey() => $result->getTime(),
                 $this->config->getStartMemoryKey() => $result->getStartMemory(),
                 $this->config->getEndMemoryKey() => $result->getEndMemory(),
-                $this->config->getMemoryKey() => $result->getEndMemory()
+                $this->config->getMemoryKey() => $result->getMemory()
             ];
 
             if ($this->config->shouldReportValue()) {
