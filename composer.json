@@ -4,7 +4,7 @@
     "keywords": ["scientist", "testing", "experiment", "test"],
     "type": "library",
     "require": {
-        "daylerees/scientist": "^0.1.1@alpha",
+        "daylerees/scientist": "^0.1",
         "psr/log": "1.0.*"
     },
     "require-dev": {
